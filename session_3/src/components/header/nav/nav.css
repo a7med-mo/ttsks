@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    opacity: .7;
+    cursor: pointer;
+}
+
+li a{    
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    opacity: .5;
+    cursor: pointer;
+}
+
+a.active {
+    opacity: 1;
+}
